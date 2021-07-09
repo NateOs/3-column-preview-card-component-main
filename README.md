@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/NateOs/3-column-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/NateOs/3-column-preview-card-component-main)
+- Live Site URL: [Netlify](3-col-fm.netlify.app)
 
 ## My process
 
@@ -50,7 +50,7 @@ Users should be able to:
 
 Since this challenge was simple and without much complexitY, I used it to practice my SASS skills and leveled up.
 
-To see how you can add code snippets, see below:
+An example query with the @include-media library:
 
 ```css
 /* sample media query */
