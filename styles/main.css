@@ -3,3 +3,77 @@
   margin: 0;
   padding: 0;
 }
+
+.section {
+  border-radius: 10px;
+  max-width: 375px;
+  margin: 1em auto;
+  height: 100vh;
+  color: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 3em 0;
+}
+
+.section__row {
+  height: 33.33vh;
+  padding: 3.5em 2em;
+  min-height: 400px;
+}
+
+.section__row:first-child {
+  border-radius: 10px 10px 0 0;
+}
+
+.section__row:last-child {
+  border-radius: 0 0  10px 10px;
+}
+
+.section__row--orange {
+  background: #e38826;
+}
+
+.section__row--cyan {
+  background: #006970;
+}
+
+.section__row--dark-cyan {
+  background: #004241;
+}
+
+.section__logo {
+  font-size: 1em;
+  margin: 1em 0;
+}
+
+.section__header {
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.section__paragraph {
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 1em;
+  line-height: 2;
+}
+
+.section__button {
+  border-radius: 50px;
+  padding: 1em 1.5em;
+  text-transform: capitalize;
+  background: #f2f2f2;
+  border: 1px solid white;
+}
+
+.section__button--orange {
+  color: #e38826;
+}
+
+.section__button--cyan {
+  color: #006970;
+}
+
+.section__button--dark-cyan {
+  color: #004241;
+}

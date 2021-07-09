@@ -23,6 +23,8 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
+        position: fixed;
+        bottom: 0;
         font-size: 11px;
         text-align: center;
       }
@@ -50,14 +52,21 @@
           </g>
         </svg>
         <h1 class="section__header">Sedans</h1>
-        <p>
+        <p class="section__paragraph">
           Choose a sedan for its affordability and excellent fuel economy. Ideal
           for cruising in the city or on your next road trip.
         </p>
-        <button class="section__button"></button>
+        <button class="section__button section__button--orange">
+          learn more
+        </button>
       </article>
       <article class="section__row section__row--cyan">
-        <svg width="64" height="40" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          class="section__logo"
+          width="64"
+          height="40"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <g fill="none" fill-rule="evenodd">
             <circle fill="#000" opacity=".201" cx="20" cy="20" r="20" />
             <path
@@ -69,14 +78,19 @@
         </svg>
 
         <h1 class="section__header">SUVs</h1>
-        <p>
+        <p class="section__paragraph">
           Take an SUV for its spacious interior, power, and versatility. Perfect
           for your next family vacation and off-road adventures.
         </p>
-        <button class="section__button"></button>
+        <button class="section__button section__button--cyan">learn more</button>
       </article>
-      <article class="section__row section__row--dark-cyan">
-        <svg width="64" height="40" xmlns="http://www.w3.org/2000/svg">
+      <article class="section__row section__row--dark-cyan ">
+        <svg
+          class="section__logo"
+          width="64"
+          height="40"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <g fill="none" fill-rule="evenodd">
             <circle fill="#000" opacity=".201" cx="20" cy="20" r="20" />
             <path
@@ -88,11 +102,11 @@
         </svg>
 
         <h1 class="section__header">Luxury</h1>
-        <p>
+        <p class="section__paragraph">
           Cruise in the best car brands without the bloated prices. Enjoy the
           enhanced comfort of a luxury rental and arrive in style.
         </p>
-        <button class="section__button"></button>
+        <button class="section__button section__button--dark-cyan">learn more</button>
       </article>
     </section>
 
