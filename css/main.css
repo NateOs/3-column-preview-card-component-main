@@ -68,7 +68,7 @@
 
 .section__button {
   border-radius: 50px;
-  padding: 1em 1.5em;
+  padding: 0.7em 1.5em;
   text-transform: capitalize;
   background: #f2f2f2;
   border: 1px solid white;
@@ -78,12 +78,27 @@
   color: #e38826;
 }
 
+.section__button--orange:hover {
+  color: rgba(255, 255, 255, 0.75);
+  background: #e38826;
+}
+
 .section__button--cyan {
   color: #006970;
 }
 
+.section__button--cyan:hover {
+  color: rgba(255, 255, 255, 0.75);
+  background: #006970;
+}
+
 .section__button--dark-cyan {
   color: #004241;
+}
+
+.section__button--dark-cyan:hover {
+  color: rgba(255, 255, 255, 0.75);
+  background: #004241;
 }
 
 @media (min-width: 376px) and (max-width: 1440px) {
