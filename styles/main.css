@@ -85,3 +85,45 @@
 .section__button--dark-cyan {
   color: #004241;
 }
+
+@media (min-width: 376px) and (max-width: 1440px) {
+  .section {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+  }
+  .section__row {
+    min-height: 450px;
+    min-width: 280px;
+  }
+  .section__row:first-child {
+    border-radius: 10px 0 0 10px;
+  }
+  .section__row:last-child {
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .section {
+    max-width: 340px;
+  }
+}
+
+@media (min-width: 1441px) {
+  .section {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+  }
+  .section__row {
+    min-height: 450px;
+    min-width: 280px;
+  }
+  .section__row:first-child {
+    border-radius: 10px 0 0 10px;
+  }
+  .section__row:last-child {
+    border-radius: 0 10px 10px 0;
+  }
+}

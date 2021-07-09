@@ -29,9 +29,10 @@
 ///  $breakpoints: ('phone': 320px);
 ///
 $breakpoints: (
-  "phone": 320px,
+  "phone": 375px,
   "tablet": 768px,
-  "desktop": 1024px,
+  "desktop": 1440px,
+  "HD": 1920px,
 ) !default;
 
 ///

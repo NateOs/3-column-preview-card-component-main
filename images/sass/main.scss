@@ -70,6 +70,47 @@
   }
 }
 
-@include media(">phone", "<=tablet") {
-  
+// grey area b/n tablet and phone
+@include media(">phone", "<=desktop") {
+  .section {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+
+    &__row {
+      min-height: 450px;
+      min-width: 280px;
+    }
+    &__row:first-child {
+      border-radius: 10px 0 0 10px;
+    }
+    &__row:last-child {
+      border-radius: 0 10px 10px 0;
+    }
+  }
+}
+// less than phone
+@include media("<=phone") {
+  .section {
+    max-width: 340px;
+  }
+}
+// greater than desktop
+@include media(">desktop") {
+	.section {
+		display: flex;
+		flex-direction: row;
+		max-width: 900px;
+	
+		&__row {
+		  min-height: 450px;
+		  min-width: 280px;
+		}
+		&__row:first-child {
+		  border-radius: 10px 0 0 10px;
+		}
+		&__row:last-child {
+		  border-radius: 0 10px 10px 0;
+		}
+	  }
 }
