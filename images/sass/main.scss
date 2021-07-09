@@ -1,5 +1,6 @@
 @import "config";
 @import "variables";
+@import "include-media";
 
 .container {
   min-height: 100vh;
@@ -67,4 +68,8 @@
   &__button--dark-cyan {
     color: $primary-dark-cyan;
   }
+}
+
+@include media(">phone", "<=tablet") {
+  
 }
